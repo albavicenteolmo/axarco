@@ -16,4 +16,11 @@
 
 # AXARCO - Helping the local commerce
 
+A project for IBM's Hack for Commerce 2021<br>
+
+Authors:<br>
+
+- Alba Vicente Olmo (albav.olmo@gmail.com)
+- Salvador Fernández Gómez (salvadorfergo@gmail.com)
+
 
