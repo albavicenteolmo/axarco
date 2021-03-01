@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="16dp">
+
+
+        <!--<android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/IBM_blue"
+            android:orientation="horizontal"
+            android:padding="40px">
+
+            <!--<TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/IBM_blue"
+                android:paddingTop="70px"
+                android:paddingBottom="40px"
+                android:text="@string/axarco"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="80px" />-->
+
+
+            <ImageView
+                android:id="@+id/menu_icon"
+                android:layout_width="90px"
+                android:layout_height="90px"
+                android:layout_gravity="start|center_vertical"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/menu" />
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:layout_gravity="center|center_vertical"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/carrito"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_gravity="end|center_vertical"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/carrito" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+            <SearchView
+                android:layout_width="32dp"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textsearch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/Aceite_de_Oliva"
+                android:textAlignment="left"
+                android:textColor="@color/gris"
+                android:textSize="60px" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="592dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/Resultados"
+                android:textAlignment="left"
+                android:textColor="@color/gris"
+                android:textSize="50px" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="152dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="188dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/aceite" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Los_Romanes"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Anita"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Precio_Los_Romanes"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Cantidad_Los_Romanes"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="152dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="188dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/Aceite_La_Flor_Malaga" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/La_Flor"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Anita"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Precio_La_Flor"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Cantidad_La_Flor"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="152dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="188dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/Aceite_Molisur" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Molisur"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Maruja"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Precio_Molisur"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:text="@string/Cantidad_Molisur"
+                        android:textAlignment="left"
+                        android:textColor="@color/gris"
+                        android:textSize="50px" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

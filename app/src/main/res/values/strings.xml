@@ -4,4 +4,19 @@
     <string name="ropa">Ropa</string>
     <string name="servicios">Servicios</string>
     <string name="poweredby">Powered by IBM</string>
+    <string name="Resultados">Resultados</string>
+    <string name="Aceite_de_Oliva">   Aceite de Oliva 5L</string>
+    <string name="Los_Romanes">Aceite de Oliva Virgen extra Los Romanes 5L</string>
+    <string name="Anita">Anita la tienda</string>
+    <string name="Precio_Los_Romanes">24.00 € </string>
+    <string name="Cantidad_Los_Romanes">30 unds disponibles </string>
+    <string name="La_Flor">Aceite de Oliva Virgen extra La Flor de Málaga 5L</string>
+    <string name="Precio_La_Flor">23.50 € </string>
+    <string name="Cantidad_La_Flor">67 unds disponibles </string>
+    <string name="Molisur">Aceite de Oliva Virgen extra Molisur 5L</string>
+    <string name="Maruja">Tienda la Maruja</string>
+    <string name="Precio_Molisur">22.70 € </string>
+    <string name="Cantidad_Molisur">4 unds disponibles </string>
+    <string name="Carrito">Añadir al carrito </string>
+
 </resources>
